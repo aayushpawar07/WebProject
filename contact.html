@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="navlinks" id="navlink">
+                <i class="ri-close-line" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <!-- <i class="ri-menu-line" class="ra"   ></i> -->
+                </ul>
+            </div>
+            <i class="ri-menu-line" onclick="showMenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+    </header>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.0689479398!2d73.86296739999999!3d18.52461645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1713336762020!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contect-us">
+        <div class="row"  >
+    <div class="contact-col">
+     <div>
+        <i class="ri-facebook-fill one"></i>
+<span>
+    <h5>Nehru Nager Bhopal</h5>
+    <p>madhaya pradesh (india)</p>
+</span>
+     </div>
+ <div>
+        <i class="ri-twitter-fill  one"></i>
+<span>
+    <h5>+91 6265561446</h5>
+    <p>monday to saturday  , 10am to 6pm</p>
+</span>
+     </div>
+
+     <div>
+        <i class="ri-twitter-fill one"></i>
+<span>
+    <h5>aayushparadkar4@gamil.com</h5>
+    <p>Email us your query</p>
+</span>
+     </div>
+</div>
+    <div class="contect-col">
+<form action="http://localhost:8080/contact" method="POST">
+    <input type="text" placeholder="Enter Your name" name="name" required>
+
+    <input type="email"  placeholder="enter Email :" name="email" >
+    <input type="text" placeholder="Enter your Subject :" name="subject">
+    <textarea  rows="8"  placeholder="message :" name="message"  required></textarea>
+    <button class="hero-btn btn2">submit</button>
+    </form>
+    </div>
+    </div>
+    </section>
+    
+
+    
+<section class="footer" >
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dolores officia dolore nemo iste molestias aliquam? <br>Incidunt quo aut, ipsam error fugiat laborum hic blanditiis animi, eos molestiae nulla eum!</p>
+    <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-instagram-fill"></i>
+        <i class="ri-twitter-fill"></i>
+    </div>
+</section>
